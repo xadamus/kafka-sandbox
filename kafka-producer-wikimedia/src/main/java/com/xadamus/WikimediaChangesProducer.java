@@ -16,7 +16,7 @@ public class WikimediaChangesProducer {
 
     public static final Logger log = LoggerFactory.getLogger(WikimediaChangesProducer.class);
 
-    public static final String BOOTSTRAP_SERVER = "172.18.35.195:9092";
+    public static final String BOOTSTRAP_SERVER = "[::1]:9092";
     public static final String TOPIC_NAME = "wikimedia.recentchange";
     public static final String SOURCE_URL = "https://stream.wikimedia.org/v2/stream/recentchange";
 
